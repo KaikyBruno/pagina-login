@@ -27,7 +27,7 @@ html, body {
 }
 main {
     padding-top: 40px;
-    width: 400px;
+    max-width: 400px;
     height: auto;
     padding: 50px 10px 50px 10px;
     background-color: #192428;
@@ -95,4 +95,17 @@ main > p {
 main > p > a {
     text-decoration: none;
     color: #1f85e4;
+}
+main > p > a:hover {
+    color: #1661a7;
+}
+
+
+/*Parte do Cadastro*/
+
+#email {
+    margin-top: 10px;
+}
+#entrar-espaçamento > a {
+    text-decoration: none;
 }

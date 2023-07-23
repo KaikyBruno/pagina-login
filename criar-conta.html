@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="shortcut icon" href="imagens/logo.webp" type="image/x-icon">
+    
+    <link rel="stylesheet" href="estilos/style.css">
+</head>
+<body>
+    <main>
+        <img src="imagens/logo.webp" alt="Logo">
+
+        <div id="container">
+            <input class="button-login" type="text" name="usuario" id="usuario" placeholder="novo usuário" autocomplete="off">
+            <input class="button-login" type="email" id="email" autocomplete="off" placeholder="E-mail">
+            <div><input class="button-login" type="password" name="senha" id="senha" placeholder="nova senha" max="15"></div>
+            <div><input class="button-login" type="password" name="senha" id="repetir-senha" placeholder="repetir senha" max="15"></div>
+        </div>
+
+        <div id="entrar-espaçamento">
+            <a href="index.html"><input type="submit" value="Cadastrar" id="entrar" onclick="cadastrar ()"></a>
+        </div>
+    </main>
+
+
+    <script src="code/script.js"></script>
+</body>
+</html>
